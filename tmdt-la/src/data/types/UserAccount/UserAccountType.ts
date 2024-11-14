@@ -5,6 +5,7 @@ export default interface UserAccountType {
   fullName?: string;
   uid?: string;
   email?: string;
+  password?: string;
   phone?: string;
   provider?: string;
   roles?: string;

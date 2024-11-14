@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import GlobalStylePage from "./presentations/globalComponents/globalStyle/GlobalStylePage";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 // Internal files
 // Style
 
@@ -18,7 +20,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <GlobalStylePage>
-        <App />
+        <Provider store={store}>
+          <App />
+        </Provider>
       </GlobalStylePage>
     </BrowserRouter>
     <ToastContainer
