@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
-
+@import "normalize.css";
 :root {
-  // --primary-color: ;
+  // colors
   --primary-color: #53b175;
   --black-color: #495057;
   --white-color: #fff;
@@ -11,9 +11,7 @@
   --yellow-color: #ffc107;
   --gray-color: #ebecf08a;
   --gray-color2: #ebecf0;
-  // --primary-color: #ec94fb;
   --green-hover-color: #018b7e;
-  // --green-hover-color: #ec94fb;
   --blue-color: rgba(53, 162, 235, 0.5);
   --blue-color2: #1976d2;
   --blue-hover-color: #2669ad;
@@ -24,11 +22,23 @@
   --sidebar-color: #fff;
   --pink-color: rgba(255, 99, 132, 0.5);
 
+  //size component
   --primary-size: 1.4rem;
   --header-height: 54px;
   --width-sidebar-small: 80px;
   --width-sidebar-large: 242px;
   --font-family: "Roboto", sans-serif;
+
+  // loading css
+  --size: 120;
+  --coefficient: 1px;
+  --timeline: 2.6s;
+  --delay: 0.65s;
+  --rotation-y: -24;
+  --rotation-x: 28;
+  --color-one: #3a0ca3;
+  --color-two: #4361ee;
+  --color-three: #4cc9f0;
 }
 
 * {

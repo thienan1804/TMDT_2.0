@@ -1,0 +1,43 @@
+.wrapper {
+  background-color: var(--white-color);
+}
+.content-wrapper {
+  padding: 25px;
+}
+.content-item {
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 14px;
+    color: var(--black-color);
+  }
+
+  li {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    color: var(--text-color);
+
+    a {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.profile-web {
+  background-color: var(--primary-color);
+  padding: 75px 120px;
+  h3,
+  p {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    color: var(--white-color);
+  }
+}
+.map {
+  padding: 25px;
+  h3 {
+    line-height: 3.5rem;
+    color: var(--white-color);
+  }
+}
